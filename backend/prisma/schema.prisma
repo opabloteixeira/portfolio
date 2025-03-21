@@ -14,6 +14,21 @@ model Technologies {
   description String
   img         String
   highlight   Boolean @default(false)
+  projects    Projects[]
 
   @@map("technologies")
+}
+
+model Projects {
+  id          Int     @id @default(autoincrement())
+  name        String
+  description String 
+  type        String 
+  img         String[]
+  level       Int
+  repo        String
+  highlight   Boolean @default(false)
+  technologies Technologies[]
+
+  @@map("projects")
 }
