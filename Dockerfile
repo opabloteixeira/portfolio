@@ -42,3 +42,10 @@ COPY --from=builder --chown=node:node /home/node/backend/dist/ ./dist/
 
 CMD ["node", "dist/backend/src/main.js"]
 # deploy
+
+
+# fly auth login
+# fly launch --no-deploy
+# fly deploy
+
+# fly auth logoff
