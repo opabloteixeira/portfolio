@@ -1,5 +1,8 @@
 {
-    "code-runner.executorMap": {
-        "typescript": "npx tsx",
-    }
+	"code-runner.executorMap": {
+		"typescript": "npx tsx"
+	},
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
+	"editor.formatOnSave": true,
+	"prettier.semi": true
 }
