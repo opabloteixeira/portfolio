@@ -24,7 +24,7 @@ export default function HomePage(props: HomePageProps) {
 						</span>
 						<span className="w-2 h-2 rounded-full bg-red-500"></span>
 					</h1>
-					<h2 className="text-zinc-500 text-center">Software Developer</h2>
+					<h2 className="text-zinc-500 text-center">Software Engineer</h2>
 				</div>
 				<Technologies list={props.technologies} />
 			</div>

@@ -2,16 +2,16 @@ import { Project } from "@core";
 import Image from "next/image";
 import Link from "next/link";
 
-export interface ItemProjetoProps {
+export interface ItemProjectProps {
 	project: Project;
 }
 
-export default function ProjectItem(props: ItemProjetoProps) {
+export default function ProjectItem(props: ItemProjectProps) {
 	return (
 		<Link href={`/project/${props.project.id}`}>
 			<div
 				className="
-                    relative rounded-2xl overflow-hidden border border-zinc-800
+                    relative overflow-hidden border border-zinc-800
                     min-w-64 min-h-64
                 "
 			>
