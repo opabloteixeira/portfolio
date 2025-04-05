@@ -1,4 +1,3 @@
-import Image from "next/image";
 import Container from "./Container";
 import Link from "next/link";
 import Menu from "./Menu";
