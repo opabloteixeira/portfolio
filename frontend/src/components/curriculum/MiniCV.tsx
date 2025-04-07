@@ -6,7 +6,7 @@ export default function MiniCV() {
 			<div className="relative min-w-86 h-68 xl:self-end">
 				<Image className="grayscale-50" src="/perfil.png" alt="Foto de perfil" fill />
 			</div>
-			<div className="flex flex-col gap-5 self-center py-6 items-center md:items-start lg:items-center xl:items-start ml-4">
+			<div className="flex flex-col gap-5 self-center py-6 items-center  md:items-start lg:items-center xl:items-start">
 				<div className="flex flex-col items-center md:items-start lg:items-center xl:items-start">
 					<span
 						className="
