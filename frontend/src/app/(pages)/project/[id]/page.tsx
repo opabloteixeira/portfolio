@@ -21,9 +21,10 @@ export default async function ProjectPage(props: { params: Promise<{ id: string 
 			<Header />
 			<Container className="py-7 flex flex-col items-center gap-10">
 				<h1 className="text-3xl font-bold self-start">{project.name}</h1>
-				<ImagesCarousel imgs={project.img.slice(1)} />
+				<ImagesCarousel big={false} imgs={[project?.img[project?.img?.length - 1]]} />
 				<Technologies list={project.technologies} small />
 				<Readme markdown={readme} />
+				<ImagesCarousel big={true} imgs={project?.img?.slice(1, -1)} />
 			</Container>
 		</div>
 	);

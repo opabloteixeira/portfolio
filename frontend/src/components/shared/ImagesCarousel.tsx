@@ -9,6 +9,7 @@ import {
 
 export interface ImagesCarouselProps {
 	imgs: string[];
+	big: boolean;
 }
 
 export default function ImagesCarousel(props: ImagesCarouselProps) {
@@ -16,8 +17,14 @@ export default function ImagesCarousel(props: ImagesCarouselProps) {
 		<Carousel opts={{ loop: true }} className="w-7/10 md:w-11/12 xl:w-full">
 			<CarouselContent>
 				{props.imgs.map((img) => (
-					<CarouselItem key={img} className="relative h-96 w-full">
-						<Image src={img} alt="Imagem" fill className="object-cover" />
+					<CarouselItem
+						key={img}
+						className={`
+						relative w-full
+						${props.big ? "aspect-[4/2]" : "h-96"}
+					`}
+					>
+						<Image src={img} alt="Imagem" fill className="object-contain" />
 					</CarouselItem>
 				))}
 			</CarouselContent>
