@@ -21,7 +21,7 @@ export default function ImagesCarousel(props: ImagesCarouselProps) {
 						key={img}
 						className={`
 						relative w-full
-						${props.big ? "aspect-[4/2]" : "h-96"}
+						${props.big ? "aspect-[4/3]" : "h-96"}
 					`}
 					>
 						<Image src={img} alt="Imagem" fill className="object-contain" />
