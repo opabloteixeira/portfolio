@@ -9,6 +9,8 @@ export default async function Home() {
 	const technologies = await getTechnologies();
 	const projects = await getProjects();
 
+	console.log(technologies.highlights);
+
 	return (
 		<div>
 			<HomePage technologies={technologies.highlights} />
