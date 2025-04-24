@@ -12,7 +12,9 @@ export default function Experience() {
 function Item(props: { values: string; label: string }) {
 	return (
 		<div className="flex flex-col items-center">
-			<span className="text-red-500 text-3xl font-bold leading-6">{props.values}</span>
+			<span className="text-500 text-[#008a89] text-3xl font-bold leading-6">
+				{props.values}
+			</span>
 			<span className="text-zinc-400 text-sm text-center w-45 ">{props.label}</span>
 		</div>
 	);

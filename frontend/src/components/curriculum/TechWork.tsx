@@ -10,7 +10,7 @@ export function TechWork(props: TechWorkProps) {
 			<div className="flex justify-center gap-x-3 flex-wrap">
 				{props.list.map((technology: Technology) => (
 					<div key={technology.id}>
-						<span className="text-red-500 font-bold">#</span>
+						<span className="text-500 text-[#008a89] font-bold">#</span>
 						<span>{technology.name}</span>
 					</div>
 				))}

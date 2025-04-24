@@ -18,7 +18,7 @@ export default function Menu() {
 				selecionado={false}
 				novaAba={true}
 			>
-				Contato
+				Whatsapp
 			</MenuItem>
 		</nav>
 	);
@@ -34,7 +34,7 @@ function MenuItem(props: {
 		<Link href={props.href} target={props.novaAba ? "_blank" : "_self"}>
 			<span
 				className={`
-                    flex items-center gap-2 text-sm border-red-600 hover:text-white
+                    flex items-center gap-2 text-sm border-[#008a89] hover:text-white
                     ${props.selecionado ? "border-b-4 text-white" : "text-zinc-300"}    
                 `}
 			>

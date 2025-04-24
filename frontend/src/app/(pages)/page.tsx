@@ -15,8 +15,8 @@ export default async function Home() {
 		<div>
 			<HomePage technologies={technologies.highlights} />
 			<Container className="py-16 flex flex-col items-center gap-10">
-				<Projects big title="Destaque" list={projects.highlights} />
-				<Projects title="Web" list={projects.web} />
+				<Projects big title="Projetos" list={projects.web} />
+				{/* <Projects title="Web" list={projects.web} /> */}
 				{/* <Projects title="Mobile" list={projects.mobile} />
 				<Projects title="Jogos" list={projects.games} /> */}
 				<Curriculum technologies={technologies.all} />

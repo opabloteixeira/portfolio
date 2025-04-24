@@ -10,7 +10,7 @@ export default function MiniCV() {
 				<div className="flex flex-col items-center md:items-start lg:items-center xl:items-start">
 					<span
 						className="
-                            bg-gradient-to-r from-red-500 via-white to-white
+                            bg-gradient-to-r from-[#008a89] via-white to-white
                             text-transparent bg-clip-text text-2xl font-bold
                         "
 					>
@@ -19,9 +19,10 @@ export default function MiniCV() {
 					<span>Software Engineer</span>
 				</div>
 				<p className="text-sm text-center md:text-left lg:text-center xl:text-left">
-					Bem-vindo ao meu portfólio profissional. Aqui você encontrará uma coleção dos
-					meus projetos e trabalhos em desenvolvimento de software, demonstrando minhas
-					habilidades e experiências na área de tecnologia.
+					Bem-vindo ao meu site! <br /> Sou Engenheiro de software com foco em Front end,
+					apaixonado por criar interfaces funcionais, modernas e bem estruturadas. Aqui
+					você encontrará projetos que refletem minha experiência com desenvolvimento web,
+					integração com back-end, otimização de performance, e atenção à usabilidade.
 				</p>
 			</div>
 		</div>
