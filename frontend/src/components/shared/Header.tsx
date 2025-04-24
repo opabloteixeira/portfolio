@@ -19,7 +19,7 @@ export default function Header() {
 						target="_blank"
 						className="bg-500 bg-[#008a89] rounded-full px-7 py-1 text-sm font-bold"
 					>
-						Meu Linkedin
+						Linkedin
 					</Link>
 				</div>
 			</Container>
